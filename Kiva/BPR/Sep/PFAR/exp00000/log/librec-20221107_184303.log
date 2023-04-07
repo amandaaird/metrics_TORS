@@ -1,0 +1,143 @@
+22/11/07 18:43:04 INFO TextDataConvertor: Dataset: [../../data/rating_5000_cls_hc_10core_iterative.csv]
+22/11/07 18:43:04 INFO TextDataConvertor: DataSet: ...ng_5000_cls_hc_10core_iterative.csv is finished
+22/11/07 18:43:04 INFO TextDataConvertor: rating Scale (real): 3.0 to 5.0
+22/11/07 18:43:04 INFO TextDataConvertor: user number: 4005,	 item number is: 2673
+22/11/07 18:43:04 INFO TextDataModel: Transform data to Convertor successfully!
+22/11/07 18:43:05 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/11/07 18:43:05 INFO TextDataModel: Feature appender loaded successfully!
+22/11/07 18:43:05 INFO TextDataConvertor: Dataset: [../../data/split/cv_1/train.txt]
+22/11/07 18:43:05 INFO TextDataConvertor: DataSet: ../../data/split/cv_1/train.txt is finished
+22/11/07 18:43:05 INFO TextDataConvertor: rating Scale (real): 3.0 to 5.0
+22/11/07 18:43:05 INFO TextDataConvertor: user number: 4005,	 item number is: 2673
+22/11/07 18:43:05 INFO TextDataModel: Transform data to Convertor successfully!
+22/11/07 18:43:05 INFO TextDataConvertor: Dataset: [../../data/split/cv_1/test.txt]
+22/11/07 18:43:05 INFO TextDataConvertor: DataSet: ../../data/split/cv_1/test.txt is finished
+22/11/07 18:43:06 INFO TextDataConvertor: rating Scale (real): 3.0 to 5.0
+22/11/07 18:43:06 INFO TextDataConvertor: user number: 4005,	 item number is: 2673
+22/11/07 18:43:06 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/11/07 18:43:06 INFO TextDataModel: Data cardinality of training is 88296
+22/11/07 18:43:06 INFO TextDataModel: Data cardinality of testing is 22075
+22/11/07 18:43:06 INFO TextDataModel: Feature appender loaded successfully!
+22/11/07 18:43:06 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 1.
+22/11/07 18:43:06 INFO BPRRecommender: Job Setup completed.
+22/11/07 18:43:06 INFO BPRRecommender: BPRRecommender iter 1: loss = 61204.07747848479, delta_loss = -61204.08
+22/11/07 18:43:06 INFO BPRRecommender: BPRRecommender iter 2: loss = 61204.01280357034, delta_loss = 0.064674914
+22/11/07 18:43:06 INFO BPRRecommender: BPRRecommender iter 3: loss = 61203.95001142267, delta_loss = 0.062792145
+22/11/07 18:43:06 INFO BPRRecommender: BPRRecommender iter 4: loss = 61203.88743507841, delta_loss = 0.062576346
+22/11/07 18:43:06 INFO BPRRecommender: BPRRecommender iter 5: loss = 61203.8252786281, delta_loss = 0.06215645
+22/11/07 18:43:06 INFO BPRRecommender: BPRRecommender iter 6: loss = 61203.75887393229, delta_loss = 0.06640469
+22/11/07 18:43:06 INFO BPRRecommender: BPRRecommender iter 7: loss = 61203.69557243916, delta_loss = 0.063301496
+22/11/07 18:43:06 INFO BPRRecommender: BPRRecommender iter 8: loss = 61203.63156351589, delta_loss = 0.06400892
+22/11/07 18:43:06 INFO BPRRecommender: BPRRecommender iter 9: loss = 61203.56632445924, delta_loss = 0.06523906
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 10: loss = 61203.50034351646, delta_loss = 0.06598094
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 11: loss = 61203.43545249829, delta_loss = 0.06489102
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 12: loss = 61203.369036365366, delta_loss = 0.06641613
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 13: loss = 61203.301823485315, delta_loss = 0.06721288
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 14: loss = 61203.23654497654, delta_loss = 0.06527851
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 15: loss = 61203.17325034539, delta_loss = 0.063294634
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 16: loss = 61203.10825549411, delta_loss = 0.06499485
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 17: loss = 61203.04798945328, delta_loss = 0.06026604
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 18: loss = 61202.98608447382, delta_loss = 0.061904978
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 19: loss = 61202.92672126482, delta_loss = 0.05936321
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 20: loss = 61202.86813747228, delta_loss = 0.058583792
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 21: loss = 61202.80892231984, delta_loss = 0.05921515
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 22: loss = 61202.75626683215, delta_loss = 0.05265549
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 23: loss = 61202.70316159561, delta_loss = 0.053105235
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 24: loss = 61202.65333600256, delta_loss = 0.049825594
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 25: loss = 61202.60567188493, delta_loss = 0.047664117
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 26: loss = 61202.55840774693, delta_loss = 0.047264136
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 27: loss = 61202.5168645132, delta_loss = 0.041543234
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 28: loss = 61202.4760582989, delta_loss = 0.040806215
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 29: loss = 61202.43755633802, delta_loss = 0.03850196
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 30: loss = 61202.40328923694, delta_loss = 0.0342671
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 31: loss = 61202.36962791181, delta_loss = 0.033661325
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 32: loss = 61202.33950235515, delta_loss = 0.030125557
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 33: loss = 61202.31145550183, delta_loss = 0.028046854
+22/11/07 18:43:07 INFO BPRRecommender: BPRRecommender iter 34: loss = 61202.287090932055, delta_loss = 0.02436457
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 35: loss = 61202.26532697248, delta_loss = 0.02176396
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 36: loss = 61202.24548912803, delta_loss = 0.019837845
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 37: loss = 61202.228107832234, delta_loss = 0.017381296
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 38: loss = 61202.21146168655, delta_loss = 0.016646145
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 39: loss = 61202.19789858651, delta_loss = 0.0135631
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 40: loss = 61202.18602961128, delta_loss = 0.011868975
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 41: loss = 61202.17654632606, delta_loss = 0.009483285
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 42: loss = 61202.16714475525, delta_loss = 0.009401571
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 43: loss = 61202.15930418233, delta_loss = 0.007840573
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 44: loss = 61202.1523709126, delta_loss = 0.0069332696
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 45: loss = 61202.146961283215, delta_loss = 0.0054096295
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 46: loss = 61202.14128254674, delta_loss = 0.0056787366
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 47: loss = 61202.135456411255, delta_loss = 0.0058261356
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 48: loss = 61202.13060401611, delta_loss = 0.004852395
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 49: loss = 61202.124469974035, delta_loss = 0.006134042
+22/11/07 18:43:08 INFO BPRRecommender: BPRRecommender iter 50: loss = 61202.11778525291, delta_loss = 0.006684721
+22/11/07 18:43:08 INFO BPRRecommender: Job Train completed.
+22/11/07 18:43:08 INFO RecommenderJob: ExpCMD: COMPLETE
+22/11/07 18:43:08 INFO RecommenderJob: EvalCMD: START
+22/11/07 18:43:08 INFO BPRRecommender: begin recommend
+22/11/07 18:43:09 INFO BPRRecommender: end recommend
+22/11/07 18:43:09 INFO RecommenderJob: Evaluator info:NormalizedDCGEvaluator is 0.046469479941469174
+22/11/07 18:43:09 INFO RecommenderJob: Evaluator info:PStatisticalParityEvaluator is -0.6894380853277937
+22/11/07 18:43:09 INFO BPRRecommender: begin recommend
+22/11/07 18:43:10 INFO BPRRecommender: end recommend
+22/11/07 18:43:10 INFO RecommenderJob: Result path is exp00000/result/out-1.txt
+22/11/07 18:43:10 INFO RecommenderJob: EvalCMD: COMPLETE.
+22/11/07 18:43:10 INFO TextDataConvertor: Dataset: [../../data/split/cv_2/train.txt]
+java.nio.file.NoSuchFileException: ../../data/split/cv_2/train.txt
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1764)
+	at java.base/java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:219)
+	at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:276)
+	at java.base/java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:322)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2717)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2797)
+	at net.librec.data.convertor.TextDataConvertor.readData(TextDataConvertor.java:166)
+	at net.librec.data.convertor.TextDataConvertor.processData(TextDataConvertor.java:139)
+	at net.librec.data.model.TextDataModel.buildConvert(TextDataModel.java:68)
+	at net.librec.data.model.AbstractDataModel.buildDataModel(AbstractDataModel.java:157)
+	at net.that_recsys_lab.auto.AutoRecommenderJob.setData(AutoRecommenderJob.java:102)
+	at net.that_recsys_lab.auto.cmd.SplitCmd.execute(SplitCmd.java:50)
+	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
+	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
+	at net.that_recsys_lab.auto.AutoRecommenderJob.runJob(AutoRecommenderJob.java:198)
+	at net.that_recsys_lab.auto.SingleJobRunner.main(SingleJobRunner.java:27)
+22/11/07 18:43:10 INFO TextDataModel: Transform data to Convertor successfully!
+22/11/07 18:43:10 INFO TextDataConvertor: Dataset: [../../data/split/cv_2/test.txt]
+java.nio.file.NoSuchFileException: ../../data/split/cv_2/test.txt
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1764)
+	at java.base/java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:219)
+	at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:276)
+	at java.base/java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:322)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2717)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2797)
+	at net.librec.data.convertor.TextDataConvertor.readData(TextDataConvertor.java:166)
+	at net.librec.data.convertor.TextDataConvertor.processData(TextDataConvertor.java:139)
+	at net.librec.data.splitter.GivenTestSetDataSplitter.splitData(GivenTestSetDataSplitter.java:88)
+	at net.librec.data.model.AbstractDataModel.buildSplitter(AbstractDataModel.java:102)
+	at net.librec.data.model.AbstractDataModel.buildDataModel(AbstractDataModel.java:161)
+	at net.that_recsys_lab.auto.AutoRecommenderJob.setData(AutoRecommenderJob.java:102)
+	at net.that_recsys_lab.auto.cmd.SplitCmd.execute(SplitCmd.java:50)
+	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
+	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
+	at net.that_recsys_lab.auto.AutoRecommenderJob.runJob(AutoRecommenderJob.java:198)
+	at net.that_recsys_lab.auto.SingleJobRunner.main(SingleJobRunner.java:27)
+Exception in thread "main" java.lang.NullPointerException
+	at net.librec.data.splitter.GivenTestSetDataSplitter.splitData(GivenTestSetDataSplitter.java:99)
+	at net.librec.data.model.AbstractDataModel.buildSplitter(AbstractDataModel.java:102)
+	at net.librec.data.model.AbstractDataModel.buildDataModel(AbstractDataModel.java:161)
+	at net.that_recsys_lab.auto.AutoRecommenderJob.setData(AutoRecommenderJob.java:102)
+	at net.that_recsys_lab.auto.cmd.SplitCmd.execute(SplitCmd.java:50)
+	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
+	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
+	at net.that_recsys_lab.auto.AutoRecommenderJob.runJob(AutoRecommenderJob.java:198)
+	at net.that_recsys_lab.auto.SingleJobRunner.main(SingleJobRunner.java:27)
