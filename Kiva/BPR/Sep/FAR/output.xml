@@ -1,6 +1,6 @@
 <study>
   <check>
     <message>No errors found in configuration file syntax.</message>
-    <message src="Fairstar/exp00000/log/librec-20230406_223852.log">No errors found in experiment 0 log.</message>
+    <message src="FAR/exp00000/log/librec-20230407_125944.log">No errors found in experiment 0 log.</message>
   </check>
 </study>

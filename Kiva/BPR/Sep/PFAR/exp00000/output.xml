@@ -68,38 +68,47 @@
       <message>Completed</message>
       <date>2023-04-07 12:46:09.898829</date>
     </status>
+    <status>
+      <message>Python-side metrics completed</message>
+      <date>2023-04-07 12:54:48.812995</date>
+    </status>
   </statuses>
   <results>
     <folds>
       <cv id="1">
         <metric name="NormalizedDCGEvaluator">0.045621652480890146</metric>
         <metric name="PStatisticalParityEvaluator">-0.7081685744016764</metric>
-        <metric name="ndcg_metric.py">0.05188987789390718</metric>
-        <metric name="psp.py">-0.7417208214192877</metric>
+        <metric name="kendall_tau.py">0.9999999999999998</metric>
+        <metric name="lowest_item_promoted.py">None</metric>
+        <metric name="rank_biased_overlap.py">1.0</metric>
       </cv>
       <cv id="2">
         <metric name="NormalizedDCGEvaluator">0.05127040438661434</metric>
         <metric name="PStatisticalParityEvaluator">-0.7621523264881906</metric>
-        <metric name="ndcg_metric.py">0.052424206686802345</metric>
-        <metric name="psp.py">-0.6155359917141379</metric>
+        <metric name="kendall_tau.py">0.9999999999999998</metric>
+        <metric name="lowest_item_promoted.py">None</metric>
+        <metric name="rank_biased_overlap.py">1.0</metric>
       </cv>
       <cv id="3">
         <metric name="NormalizedDCGEvaluator">0.05282659366895</metric>
         <metric name="PStatisticalParityEvaluator">-0.7414926931106617</metric>
-        <metric name="ndcg_metric.py">0.05368977519128521</metric>
-        <metric name="psp.py">-0.7209290187891442</metric>
+        <metric name="kendall_tau.py">0.9999999999999998</metric>
+        <metric name="lowest_item_promoted.py">None</metric>
+        <metric name="rank_biased_overlap.py">1.0</metric>
       </cv>
       <cv id="4">
         <metric name="NormalizedDCGEvaluator">0.04881880839681099</metric>
         <metric name="PStatisticalParityEvaluator">-0.7776972833117934</metric>
-        <metric name="ndcg_metric.py">0.05022119336888306</metric>
-        <metric name="psp.py">-0.7586028460543338</metric>
+        <metric name="kendall_tau.py">0.9999999999999998</metric>
+        <metric name="lowest_item_promoted.py">None</metric>
+        <metric name="rank_biased_overlap.py">1.0</metric>
       </cv>
       <cv id="5">
         <metric name="NormalizedDCGEvaluator">0.05141115337936524</metric>
         <metric name="PStatisticalParityEvaluator">-0.6399792853443871</metric>
-        <metric name="ndcg_metric.py">0.046082303114433266</metric>
-        <metric name="psp.py">-0.6894380853277836</metric>
+        <metric name="kendall_tau.py">0.9999999999999998</metric>
+        <metric name="lowest_item_promoted.py">None</metric>
+        <metric name="rank_biased_overlap.py">1.0</metric>
       </cv>
     </folds>
     <averages/>
